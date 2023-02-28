@@ -1,0 +1,75 @@
+body {
+    background-color: white;
+    /* As a background-image, the photo found on pixabay.com (taken by PDPics), a royalty-free and stock images site, is used. */
+    background-image: url(https://cdn.pixabay.com/photo/2014/07/11/17/12/dictionary-390055_1280.jpg);   
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;    
+    width: 80%;
+    margin: auto;
+}
+
+#word-content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    max-width: 60%;
+    margin: 0px auto 40px auto;
+    font-size: 18px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 40px;   
+    margin: 40px auto auto 0px;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
+
+.new-word-button {
+    margin-top: 30px;
+    margin-bottom: 13px;    
+}
+
+/* Get a new word! button */
+button {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+    font-size: 18px;
+    height: 37px;
+    margin: 0px auto;
+    min-width: 15%;
+}
+
+h1, .new-word-button, #word-content {
+    text-align: center;    
+}
+
+#word, #meaning, #example {
+    margin: auto;
+}
+
+#meaningText, #exampleText {
+    margin: 0px;
+}
+
+/* Twitter button */
+a:link, a:visited {
+    align-items: center;    
+    background-color: #1DA1F2;
+    border-radius: 10px;
+    color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    font-size: 16px;
+    height: 25px;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 2px 4px;    
+    text-decoration: none;
+    width: 12%;
+}
+  
+a:hover {
+    background-color: #055a8e;;
+}

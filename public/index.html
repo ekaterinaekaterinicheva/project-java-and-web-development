@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en>">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Urban Dictionary's Random Word</title>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <h1>URBAN DICTIONARY'S RANDOM WORD</h1>
+            <!-- Get a new word! button -->
+            <div class="new-word-button">
+                <button type="button" id="newWord">Get a new word!</button>
+            </div>
+
+            <!-- White (transparent) box containing word, meaning, and example -->
+            <div id="word-content">                
+                <p>Your new slang word is...</p>
+
+                <div id="word">
+                    <h2 id="wordDisplay"></h2>
+                </div>
+                
+                <div id="meaning">
+                    <h3 id="meaningHeader"></h3>
+                    <p id="meaningText"></p>
+                </div>
+
+                <div id="example">
+                    <h3 id="exampleHeader"></h3>
+                    <p id="exampleText"></p>
+                </div>
+
+                <!--Twitter button-->
+                <a class="twitter button" id="tweet" target="_blank" rel="noopener noreferrer">Tweet it!</a>    
+            </div>
+        </main>    
+    </body>
+    <script type="module" src="main.js"></script>
+    <script type="module" src="./routes/urbanDictionary.js"></script>
+    <script type="module" src="index.js"></script>
+</html>
