@@ -1,7 +1,6 @@
 import express from 'express';
 import cors from 'cors';
-//import * as dotenv from 'dotenv';
-//dotenv.config();
+
 import dictionaryRouter from './routes/urbanDictionary.js';
 
 const PORT = process.env.PORT || 5000;
