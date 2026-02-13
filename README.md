@@ -9,13 +9,22 @@ This application follows a Client-Server architecture designed to keep the front
 - Proxy: The server receives the request, attaches the hidden API key (stored securely in a .env file), and forwards the request to the official Urban Dictionary API.
 - Response: Once the API responds, the server passes that data back to the frontend, which dynamically updates the page with a new slang word, its meaning, and an example.
 
+## App Screenshots
+
+### App showing a random word, its meaning, and usage example
+<img width="600" height="600" alt="ScreenshotOfTheApp" src="https://github.com/user-attachments/assets/0db93fa5-7932-410f-b47e-795448e700a8" />
+
+### Screenshot of "Tweet It!" functionality and Sharing Integration
+<img width="600" height="600" alt="ScreenshotOfTheAppTwitter" src="https://github.com/user-attachments/assets/7927ab3d-4b50-4708-a64f-a3ea1490d9a0" />
+
+
 ## Tech Stack
 - Frontend: HTML5, CSS3, and JavaScript
 - Backend: Node.js and Express
   - Security: Uses dotenv to manage environment variables (secret API keys).
   - Efficiency: Utilizes needle for HTTP requests and cors to manage cross-origin resource sharing safely.
   - Integration: Uses the Urban Dictionary API to source random English slang content and the Twitter API to enable users to share their favorite finds promptly.
-    
+
 ## Launching the Urban Dictionary’s Random Word App
 To install and run Urban Dictionary’s Random Word, follow the steps below:
 1. Install Visual Studio Code and Node.js.
