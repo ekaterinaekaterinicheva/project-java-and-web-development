@@ -25,7 +25,7 @@ fetch('http://localhost:5000/api', options)
     .catch(err => console.error(err));
 
                      
-// The same sequence of code (as mentioned above), but this one is emplemented only when the user clicks Get a new word! button.
+// When the user clicks Get a new word! button.
 button.addEventListener('click',()=>{ 
     fetch('http://localhost:5000/api', options)
         .then(response => response.json())
@@ -47,4 +47,5 @@ button.addEventListener('click',()=>{
 // Twitter button
 function setTweetButton(response) {
     twitterButton.setAttribute('href', `https://twitter.com/share?text=${'Today I learnt a new word: ' + wordDisplay.innerHTML + '. ' + 'Its meaning: ' + meaningText.innerHTML} - Urban Dictionary Random Word`);
+
 }
